@@ -1,0 +1,107 @@
+#
+# Copyright (C) YuqiaoZhang(HanetakaChou)
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+# 
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+_SharpYuvComputeConversionMatrix
+_SharpYuvConvert
+_SharpYuvGetConversionMatrix
+_SharpYuvGetVersion
+_SharpYuvInit
+_VP8CheckSignature
+_VP8GetCPUInfo
+_VP8GetInfo
+_VP8LCheckSignature
+_VP8LGetInfo
+_WebPBlendAlpha
+_WebPCleanupTransparentArea
+_WebPConfigInitInternal
+_WebPConfigLosslessPreset
+_WebPCopyPixels
+_WebPCopyPlane
+_WebPDecode
+_WebPDecodeARGB
+_WebPDecodeARGBInto
+_WebPDecodeBGR
+_WebPDecodeBGRA
+_WebPDecodeBGRAInto
+_WebPDecodeBGRInto
+_WebPDecodeRGB
+_WebPDecodeRGBA
+_WebPDecodeRGBAInto
+_WebPDecodeRGBInto
+_WebPDecodeYUV
+_WebPDecodeYUVInto
+_WebPEncode
+_WebPEncodeBGR
+_WebPEncodeBGRA
+_WebPEncodeLosslessBGR
+_WebPEncodeLosslessBGRA
+_WebPEncodeLosslessRGB
+_WebPEncodeLosslessRGBA
+_WebPEncodeRGB
+_WebPEncodeRGBA
+_WebPFree
+_WebPFreeDecBuffer
+_WebPGetColorPalette
+_WebPGetDecoderVersion
+_WebPGetEncoderVersion
+_WebPGetFeaturesInternal
+_WebPGetInfo
+_WebPGetWorkerInterface
+_WebPIAppend
+_WebPIDecGetRGB
+_WebPIDecGetYUVA
+_WebPIDecode
+_WebPIDecodedArea
+_WebPIDelete
+_WebPINewDecoder
+_WebPINewRGB
+_WebPINewYUV
+_WebPINewYUVA
+_WebPIUpdate
+_WebPInitDecBufferInternal
+_WebPInitDecoderConfigInternal
+_WebPMalloc
+_WebPMemoryWrite
+_WebPMemoryWriterClear
+_WebPMemoryWriterInit
+_WebPPictureARGBToYUVA
+_WebPPictureARGBToYUVADithered
+_WebPPictureAlloc
+_WebPPictureCopy
+_WebPPictureCrop
+_WebPPictureDistortion
+_WebPPictureFree
+_WebPPictureHasTransparency
+_WebPPictureImportBGR
+_WebPPictureImportBGRA
+_WebPPictureImportBGRX
+_WebPPictureImportRGB
+_WebPPictureImportRGBA
+_WebPPictureImportRGBX
+_WebPPictureInitInternal
+_WebPPictureIsView
+_WebPPictureRescale
+_WebPPictureSharpARGBToYUVA
+_WebPPictureSmartARGBToYUVA
+_WebPPictureView
+_WebPPictureYUVAToARGB
+_WebPPlaneDistortion
+_WebPSafeCalloc
+_WebPSafeFree
+_WebPSafeMalloc
+_WebPSetWorkerInterface
+_WebPValidateConfig

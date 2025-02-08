@@ -1,0 +1,112 @@
+/*
+ * Copyright (C) YuqiaoZhang(HanetakaChou)
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+{
+    global:
+        SharpYuvComputeConversionMatrix;
+        SharpYuvConvert;
+        SharpYuvGetConversionMatrix;
+        SharpYuvGetVersion;
+        SharpYuvInit;
+        VP8CheckSignature;
+        VP8GetCPUInfo;
+        VP8GetInfo;
+        VP8LCheckSignature;
+        VP8LGetInfo;
+        WebPBlendAlpha;
+        WebPCleanupTransparentArea;
+        WebPConfigInitInternal;
+        WebPConfigLosslessPreset;
+        WebPCopyPixels;
+        WebPCopyPlane;
+        WebPDecode;
+        WebPDecodeARGB;
+        WebPDecodeARGBInto;
+        WebPDecodeBGR;
+        WebPDecodeBGRA;
+        WebPDecodeBGRAInto;
+        WebPDecodeBGRInto;
+        WebPDecodeRGB;
+        WebPDecodeRGBA;
+        WebPDecodeRGBAInto;
+        WebPDecodeRGBInto;
+        WebPDecodeYUV;
+        WebPDecodeYUVInto;
+        WebPEncode;
+        WebPEncodeBGR;
+        WebPEncodeBGRA;
+        WebPEncodeLosslessBGR;
+        WebPEncodeLosslessBGRA;
+        WebPEncodeLosslessRGB;
+        WebPEncodeLosslessRGBA;
+        WebPEncodeRGB;
+        WebPEncodeRGBA;
+        WebPFree;
+        WebPFreeDecBuffer;
+        WebPGetColorPalette;
+        WebPGetDecoderVersion;
+        WebPGetEncoderVersion;
+        WebPGetFeaturesInternal;
+        WebPGetInfo;
+        WebPGetWorkerInterface;
+        WebPIAppend;
+        WebPIDecGetRGB;
+        WebPIDecGetYUVA;
+        WebPIDecode;
+        WebPIDecodedArea;
+        WebPIDelete;
+        WebPINewDecoder;
+        WebPINewRGB;
+        WebPINewYUV;
+        WebPINewYUVA;
+        WebPIUpdate;
+        WebPInitDecBufferInternal;
+        WebPInitDecoderConfigInternal;
+        WebPMalloc;
+        WebPMemoryWrite;
+        WebPMemoryWriterClear;
+        WebPMemoryWriterInit;
+        WebPPictureARGBToYUVA;
+        WebPPictureARGBToYUVADithered;
+        WebPPictureAlloc;
+        WebPPictureCopy;
+        WebPPictureCrop;
+        WebPPictureDistortion;
+        WebPPictureFree;
+        WebPPictureHasTransparency;
+        WebPPictureImportBGR;
+        WebPPictureImportBGRA;
+        WebPPictureImportBGRX;
+        WebPPictureImportRGB;
+        WebPPictureImportRGBA;
+        WebPPictureImportRGBX;
+        WebPPictureInitInternal;
+        WebPPictureIsView;
+        WebPPictureRescale;
+        WebPPictureSharpARGBToYUVA;
+        WebPPictureSmartARGBToYUVA;
+        WebPPictureView;
+        WebPPictureYUVAToARGB;
+        WebPPlaneDistortion;
+        WebPSafeCalloc;
+        WebPSafeFree;
+        WebPSafeMalloc;
+        WebPSetWorkerInterface;
+        WebPValidateConfig;
+    local:
+        *;
+};
